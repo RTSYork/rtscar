@@ -1,4 +1,4 @@
 - setup-file: {local-name: /opt/ros/melodic/setup.sh}
 - git: {local-name: src/racecar, uri: 'https://github.com/RTSYork/ros-racecar.git', version: master}
-- git: {local-name: src/vesc, uri: 'https://github.com/RTSYork/ros-vesc.git', version: develop}
+- git: {local-name: src/vesc, uri: 'https://github.com/RTSYork/ros-vesc.git', version: master}
 - git: {local-name: src/razor_imu_9dof, uri: 'https://github.com/KristofRobot/razor_imu_9dof.git', version: indigo-devel}
