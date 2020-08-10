@@ -1,0 +1,8 @@
+[Unit]
+Description=Car battery monitoring and power control
+
+[Service]
+ExecStart=/usr/bin/battery-monitor.py -qsbrd20
+
+[Install]
+WantedBy=multi-user.target
