@@ -1,6 +1,6 @@
 # ROS Support
 
-Run the following in `car-ws` to download and build ROS packages.
+Run `build.sh`, or use the following commands in `car-ws` to download and build ROS packages.
 
 ```
 wstool update
