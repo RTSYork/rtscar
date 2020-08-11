@@ -1,0 +1,10 @@
+# udev rules for car hardware
+
+# Logitech BRIO camera
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="085e", SUBSYSTEM=="video4linux", ATTR{index}=="0", MODE="0666", SYMLINK+="car/camera"
+
+# VESC
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", SUBSYSTEM=="tty", MODE="0666", SYMLINK+="car/vesc"
+
+# SparkFun Razor IMU
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9d0f", SUBSYSTEM=="tty", MODE="0666", SYMLINK+="car/razor"
